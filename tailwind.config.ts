@@ -12,7 +12,15 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        sm: "480px", // ~480px
+        md: "768px", // ~768px
+        lg: "992px", // ~992px
+        xl: "1280px", // ~1280px
+        "2xl": "1536px", // ~1536px
+      },
     },
   },
+  darkMode: "class",
   plugins: [],
 } satisfies Config;
